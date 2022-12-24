@@ -6,7 +6,8 @@
 
 The goal is to test out different Topic Modeling algorithms, namely LDA (Latent Dirichlet Allocation) and NMF (NonNegative Matrix Factorization), which can be found within the Gensim package.
 
-💡 This is just a test for the incoming 2024 elections.
+💡 Inspired from [This research paper](https://link.springer.com/article/10.1007/s42001-021-00117-9)<br/>
+💡 This is just a test for the incoming 2024 elections.<br/>
 
 <br />
 
@@ -199,7 +200,7 @@ performance_metrics.to_csv('/Users/matteo-stelluti/Desktop/Assistant Research/20
 print(mean_perf)
 ```
 
-<img src="https://i.imgur.com/n7IXY4m.png" height="80%" width="80%" alt="AMZN trend"/> <br />
+<img src="https://i.imgur.com/n7IXY4m.png" height="40%" width="40%" alt="Algo comparison"/> <br />
 
 **Step 7. Topics Visualization** <br/>
 
@@ -211,7 +212,7 @@ pyLDAvis.enable_notebook() #This is only needed on Jupyter Notebook
 gensimviz.prepare(lda,corpus,dictionary)
 ```
 
-<img src="https://i.imgur.com/koNOHdQ.png" height="80%" width="80%" alt="AMZN trend"/> <br />
+<img src="https://i.imgur.com/koNOHdQ.png" height="80%" width="80%" alt="Topics"/> <br />
 
 
 </p>
