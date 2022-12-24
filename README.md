@@ -56,7 +56,7 @@ import gensim
 
 **Step 2. Load Data** <br/>
 
-*NOTE: the data was sourced from Kaggle, and it can be found in the repo*
+*NOTE: the data was sourced from this [Kaggle](https://www.kaggle.com/datasets/manchunhui/us-election-2020-tweets) user.
 
 ```py
 dft = pd.read_csv(FILE PATH TO 'hashtag_donladtrump.csv',lineterminator='\n')
